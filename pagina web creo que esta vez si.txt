@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Web Universitaria</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo de la Web">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Sobre Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>Bienvenidos a mi Web Universitaria</h1>
+            <p>Esta es una web creada para un trabajo de la universidad. Aquí encontrarás información sobre nosotros y los servicios que ofrecemos.</p>
+        </section>
+        <section class="contenido">
+            <article>
+                <h2>Introducción</h2>
+                <p>En esta página principal puedes navegar a otras secciones para conocer más sobre nosotros y nuestros servicios.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi Web Universitaria</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo de la Web">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Sobre Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Sobre Nosotros</h1>
+            <article>
+                <h2>Quiénes Somos</h2>
+                <p>Somos un grupo de estudiantes comprometidos con la educación y la tecnología.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi Web Universitaria</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo de la Web">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Sobre Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Contacto</h1>
+            <article>
+                <h2>Contacta con Nosotros</h2>
+                <form action="mailto:tu_email@dominio.com" method="post" enctype="text/plain">
+                    <label for="name">Nombre:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="message">Mensaje:</label><br>
+                    <textarea id="message" name="message"></textarea><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi Web Universitaria</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo de la Web">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Sobre Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Servicios</h1>
+            <article>
+                <h2>Qué Ofrecemos</h2>
+                <p>Ofrecemos una amplia gama de servicios relacionados con la educación y la tecnología.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi Web Universitaria</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 1rem;
+    background-color: #333;
+    padding: 0.5rem;
+}
+
+nav ul li {
+    text-align: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    display: grid;
+    gap: 1rem;
+}
+
+article {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+// JavaScript para funcionalidades interactivas
+console.log("Hola, Mundo!");
